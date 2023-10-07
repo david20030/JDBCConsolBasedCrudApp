@@ -9,5 +9,6 @@
 	3. download mysql-connector-jar and
 	4.set classpath
             i.In windows open cmd and run command (set classpath=;.;"enter the path of the .jar")
-           ii. In linux (java -cp .:pathOf.jarFile  Main)
+           ii. Inlinux (java -cp .:pathOf.jarFile  Main) or (export CLASSPATH=/path/to/jar1.jar:. )
+	       
 
