@@ -29,9 +29,9 @@ public class Main{
 		ResultSet resultSet   = null;
 	
 		String insertQuery  = "INSERT INTO STUDENTINFO(sname,sage,saddress) VALUES (?,?,?);";
-		String selectQuerry = "SELECT sid,sname,sage,saddress FROM studentINfo where sid =?;";
-	    String deleteQuerry = "delete from studentinfo where sid =?;";
-	    String updateQuerry = "update studentinfo set sname =?,sage =? ,saddress=? where sid=?;";
+		String selectQuerry = "SELECT sid,sname,sage,saddress FROM STUDENTINFO where sid =?;";
+	    String deleteQuerry = "delete from STUDENTINFO where sid =?;";
+	    String updateQuerry = "update STUDENTINFO set sname =?,sage =? ,saddress=? where sid=?;";
 		int option=0;
 		int sid=0;
 		String sname = null;
